@@ -47,7 +47,7 @@ public class StudentManage {
         List<Student> randomStudents = new ArrayList<>();
         for (int i = 0; i < size; i++) {
             int randomIndex = (int) (Math.random() * firstNames.size());
-            randomStudents.add(new Student(firstNames.get(randomIndex), lastNames.get(randomIndex), Math.random() * 10));
+            randomStudents.add(new Student(firstNames.get(randomIndex), lastNames.get(randomIndex), Math.random() * 11));
         }
         return randomStudents;
     }
